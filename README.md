@@ -1,4 +1,5 @@
 ## Portfolio
+Note: My official name is - Ying Pan, but I go by Adam, hence the name difference on the site.
 
 This portfolio uses bootstrap template that combines all the pages into one clean page. The website describes backgrounds about me, some information about my resume and three showcase projects. 
  
