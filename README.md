@@ -1,6 +1,6 @@
 ## Portfolio
 
-This portfolio uses bootstrap template that combines all the pages into one one clean page. The website describes backgrounds about me, some information about my resume and three showcase project. 
+This portfolio uses bootstrap template that combines all the pages into one clean page. The website describes backgrounds about me, some information about my resume and three showcase projects. 
  
 
 ## Design Ideas & Change
