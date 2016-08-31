@@ -5,9 +5,9 @@ This portfolio uses bootstrap template that combines all the pages into one clea
 
 ## Design Ideas & Change
 
-The design layout looks significantly different from my low-fidelity prototype as I wanted to have a cleaner design that has a landing page that focus visitor's attention to my profile, follow by a showcase of my project.
-I also wanted to be able to integrate some fluidity into my website design which was lacking in my prototype I submitted. as you can see, the website  allows potential visitors 
-to easily navigate around my portfolio and quickly find information about myself and the the projects that I have done. 
+The design layout looks significantly different from my low-fidelity prototype as I wanted to have a cleaner design that has a landing page that focus visitors's attention to my profile, follow by a showcase of my projects.
+I also wanted to be able to integrate some fluidity into my website design which was lacking in my prototype I submitted. As you can see, the website  allows potential visitors 
+to easily navigate around my portfolio and quickly find information about myself and the the projects that I have done and include links for recruiters to contact me.  
  
 
 ## Bootstrap Contributors 
