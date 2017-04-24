@@ -5,9 +5,8 @@ This portfolio uses bootstrap template that combines all the pages into one clea
  
 
 ## Design Ideas & Change
-The design layout looks significantly different from my low-fidelity prototype as I wanted to have a cleaner design that has a landing page that focus visitors's attention to my profile, follow by a showcase of my projects.
-I also wanted to be able to integrate some fluidity into my website design which was lacking in my prototype I submitted. As you can see, the website  allows potential visitors 
-to easily navigate around my portfolio and quickly find information about myself and the the projects that I have done and include links for recruiters to contact me.  
+The design layout have a clean design that has a landing page that focus visitors's attention to my profile, follow by a showcase of my projects.
+I also wanted to be able to integrate some fluidity into my website design which was lacking in my original prototype. The website allows potential visitors to easily navigate around my portfolio and quickly find information about myself and projects I have done and included links for recruiters to contact me.  
  
 ## How to open website
 Use the link:
@@ -16,6 +15,10 @@ Use the link:
 ## Bootstrap Contributors 
 
 Bootstrap - Stylish Portfolio creator, David Miller
+
+
+## Maintaintence 
+Website is constantly being updated to reflect recent developments and/or changes to resume. 
 
 ## License
 
