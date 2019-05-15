@@ -178,6 +178,14 @@ hr.small {
     margin-bottom: 30px;
 }
 
+.customPadding {
+    padding: 0;
+}
+
+.customPadding2 {
+    padding: 1em 1em;
+}
+
 /* Callout */
 
 .callout {
