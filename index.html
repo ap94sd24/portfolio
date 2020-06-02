@@ -1,580 +1,756 @@
-  <!DOCTYPE html>
-  <html lang="en">
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
 
-  <head>
+        <title>Ying(Adam) Pan</title>
 
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta name="description" content="">
-      <meta name="author" content="">
+        <!-- Bootstrap Core CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
 
-      <title>Ying(Adam) Pan</title>
+        <!-- Custom CSS -->
+        <link href="css/stylish-portfolio.css" rel="stylesheet" />
 
-      <!-- Bootstrap Core CSS -->
-      <link href="css/bootstrap.min.css" rel="stylesheet">
+        <!-- Custom Fonts -->
+        <link
+        href="font-awesome/css/font-awesome.min.css"
+        rel="stylesheet"
+        type="text/css"
+        />
+        <link
+        href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic"
+        rel="stylesheet"
+        type="text/css"
+        />
 
-      <!-- Custom CSS -->
-      <link href="css/stylish-portfolio.css" rel="stylesheet">
-
-      <!-- Custom Fonts -->
-      <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-      <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic"
-          rel="stylesheet" type="text/css">
-
-      <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-      <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-      <!--[if lt IE 9]>
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+        <![endif]-->
+    </head>
+    <body>
+        <!-- Navigation -->
+        <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"
+        ><i class="fa fa-bars"></i
+        ></a>
+        <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <a
+            id="menu-close"
+            href="#"
+            class="btn btn-light btn-lg pull-right toggle"
+            >
+            <i class="fa fa-times"></i
+            ></a>
+            <li class="sidebar-brand">
+            <a href="#top" onclick="$('#menu-close').click()">My Portfolio</a>
+            </li>
+            <li>
+            <a href="#top" onclick="$('#menu-close').click()">Home</a>
+            </li>
+            <li>
+            <a href="#about" onclick="$('#menu-close').click()">About</a>
+            </li>
+            <li>
+            <a href="#projects" onclick="$('#menu-close').click()">Work</a>
+            </li>
+            <li>
+            <a href="#contact" onclick="$('#menu-close').click()">Contact</a>
+            </li>
+        </ul>
+        </nav>
 
-  </head>
+        <!-- Header -->
+        <header id="top" class="header">
+        <img
+            src="img/logo2.png"
+            alt="logo"
+            style="width: 70px; height: 70px; align: left;"
+        />
+        <div class="container-fluid">
+            <div class="row setHeight">
+            <div class="col-12 text-center">
+                <h1 class="large-title" style="color: #122d59;">
+                Hi, my name is Adam!
+                </h1>
+                <h3 style="color: #122d59;">
+                <strong
+                    >"Adaptive Thinker, Full-Stack Developer &amp; Tinkerer"</strong
+                >
+                </h3>
+                <br />
+                <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
+            </div>
+            </div>
+        </div>
+        </header>
 
-  <body>
+        <!-- About -->
+        <section id="about" class="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2> About</h2>
+                        <img src="img/portfolio_profile3.jpg" alt="Profile"
+                            style="width:330px;height:400px; border-radius: 20%;">
 
-      <!-- Navigation -->
-      <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
-      <nav id="sidebar-wrapper">
-          <ul class="sidebar-nav">
-              <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
-              <li class="sidebar-brand">
-                  <a href="#top" onclick=$("#menu-close").click();>My Portfolio</a>
-              </li>
-              <li>
-                  <a href="#top" onclick=$("#menu-close").click();>Home</a>
-              </li>
-              <li>
-                  <a href="#about" onclick=$("#menu-close").click();>About</a>
-              </li>
-              <li>
-                  <a href="#projects" onclick=$("#menu-close").click();>Work</a>
-              </li>
-              <li>
-                  <a href="#contact" onclick=$("#menu-close").click();>Contact</a>
-              </li>
-          </ul>
-      </nav>
+                        <p class="lead text-left"> 
+                            <br>
+                            <strong>Brief:</strong> Hi, there! I am a Full-Stack Developer
+                            and entrepreneur with experiences developing production-scale, feature-rich, web platforms. I am currently open to new opportunity in web application development. My
+                            primary working experience(s) is on MEAN stack for web platform with experiences using Vue and ReactJS. I am interested in bringing my
+                            skill set into improving web platform that will adapt to user experience from conceptions to
+                            final product(s). My work emphasizes my experiences in web application design and
+                            development.
+                        </p>
 
-      <!-- Header -->
-      <header id="top" class="header">
-          <img src="img/logo2.png" alt="logo" style="width:70px;height:70px; align:left;">
-          <div class="container-fluid">
-              <div class="row setHeight">
-                  <div class="col-12 text-center">
-                      <h1 class="large-title" style="color: #122d59;">Hi, my name is Adam!</h1>
-                      <h3 style="color: #122d59;"> <strong>"Adaptive Thinker, Full-Stack Developer &amp;
-                              Designer"</strong></h3>
-                      <br>
-                      <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
-                  </div>
-              </div>
-          </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item text-left">
+                                <span class="fa-stack fa-4x">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-gears fa-stack-1x text-primary"></i>
+                                </span>
+                                <h4>
+                                    <strong>Skills</strong>
+                                </h4>
+                                <p>
+                                    <b>Front-End Framework: </b>
+                                    <ul>
+                                        <li>Angular 7.0+</li>
+                                        <li>React/Redux</li>
+                                        <li>Vue</li>
+                                        <li>Bootstrap 4.0</li>
+                                    </ul>
+                                    <b>Backend Framework: </b>
+                                    <ul>
+                                        <li>Express.js</li>
+                                    </ul>
+                                    <b> Primary Coding Language(s):</b>
+                                    <ul>
+                                        <li>TypeScript/JavaScript</li>
+                                        <li>CSS3</li>
+                                        <li>HTML5</li>
+                                    </ul>
+                                    <b>Other Coding Languages:</b>
+                                    Java, Python, SQL, NoSQL (MongoDB)
+                                    <br>
+                                    <b> Tools: </b> Sublime, Git, Gitlab, VS Code, Heroku, AWS
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item text-left">
+                                <span class="fa-stack fa-4x">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-briefcase fa-stack-1x text-primary"></i>
+                                </span>
+                                <h4>
+                                    <strong>Experience</strong>
+                                </h4>
+                                <p> 
+                                    <b>Banyan Infrastructure - </b> Full-Stack Engineer (09/2019 - 03/2020)
+                                    <ul>
+                                        <li>Build new features to MVP 1.0 for new blockchain-based web app to automate contracts & reduce loan risks for customers</li>
+                                        <li>
+                                            Gained experiences in: Vue, HTML5/CSS3, TypeScript, Haskell, PostgreSQL, Hyperledger Fabric, Python, TDD
+                                        </li>
+                                        <li>
+                                            Improved user experiences for new MVP 1.0 with improved data metrics for bank & related customers and scalability in handling much more portfolio
+                                        </li>
+                                    </ul>
+                                    <b>Kaippen LLC - </b> Full-Stack Developer (01/2018 - 08/2019)
+                                    <ul>
+                                        <li>E-Commerce platform for 3nd party brand marketing, targeted at Startups in
+                                            Asia</li>
+                                        <li>
+                                            Gain experiences in: MEAN stack - MongoDB/Angular/Express/Node, Git, HTML5, CSS3
+                                        </li>
+                                        <li>
+                                            MVP platform developed from scratch with Stripe API integrations
+                                        </li>
+                                    </ul>
+                                    <b>Accton Technology -</b> Front-End Web Developer Intern (06/2015 - 09/2015)
+                                    <ul>
+                                        <li>Updated internal web platform using Angular2.0 to handle web alias for SDN app </li>
+                                    </ul>
+                                    </br>
+                                </p>
+                            </div>
+                        </div>
 
-      </header>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item text-left">
+                                <span class="fa-stack fa-4x">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-graduation-cap fa-stack-1x text-primary"></i>
+                                </span>
+                                <h4>
+                                    <strong>Education</strong>
+                                </h4>
+                                <p>
+                                    <b>College:</b> UC San Diego
+                                    </br>
+                                    <b>Major:</b> Computer Science B.S. (December, 2016)
+                                    </br>
+                                    <b>Minor: </b> Business
+                                </p>
 
-      <!-- About -->
-      <section id="about" class="about">
-          <div class="container">
-              <div class="row">
-                  <div class="col-lg-12 text-center">
-                      <h2> About</h2>
-                      <img src="img/portfolio_profile3.jpg" alt="Profile"
-                          style="width:330px;height:400px; border-radius: 20%;">
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <a href="img/Current_Resume.pdf" class="btn btn-lg btn-dark">View Resume</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.container -->
+        </section>
 
-                      <p class="lead text-left"> </br><strong>Brief:</strong> Hi, there! I am a Full-Stack Developer
-                          and entrepreneur who founded an E-Commerce Startup called Kaippen in early 2018. My
-                          primary working experience is on MEAN stack for web platform. I have experience with UI/UX
-                          through my project in Puppy Squad and in my current Startup. My interest is in full-stack
-                          web developments, as well as User Centered Design. I am interested in bringing my
-                          skillsets into improving web platform that will adapt to user experience from ideas to
-                          final product(s). My work emphasizes my experiences in web application development and
-                          design.
-                      </p>
+        <!-- Services -->
+        <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
+        <section id="projects" class="services bg-primary">
+        <div class="container">
+            <div class="row text-center">
+            <div class="col-lg-12">
+                <h2>My Work</h2>
+                <hr class="small" />
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6">
+                        <div
+                        class="container-fluid customPadding setHeight"
+                        style="
+                            background-color: rgba(158, 158, 158, 0.7);
+                            -webkit-box-shadow: 2px 2px 4px 1px rgba(92, 93, 102, 1);
+                            -moz-box-shadow: 2px 2px 4px 1px rgba(92, 93, 102, 1);
+                            box-shadow: 2px 2px 4px 1px rgba(92, 93, 102, 1);
+                        "
+                        >
+                            <div class="service-item text-left">
+                                <a
+                                href="https://warm-fortress-21853.herokuapp.com/"
+                                >
+                                <img
+                                    id="careerConnector"
+                                    src="img/careerConnector.png"
+                                    alt="CareerConnector"
+                                    class="cardImage"
+                                />
+                                </a>
+        
+                                <div class="col-12 customPadding2 cardContent">
+                                <h4>
+                                    <div class="cardTitle">
+                                    <strong> CareerConeector - Full-Stack Developer </strong>
+                                    </div>
+                                </h4>
+                                <p>
+                                    <b>CareerConeector</b> is a web platform to connect professionals looking to networks, share new opportunities, or just looking for new opportunities. 
+                                </p>
+                                <span>
+                                    <button
+                                    class="btn btn-sm btn-dark"
+                                    type="button"
+                                    data-toggle="collapse"
+                                    data-target="#collapseExample0"
+                                    aria-expanded="false"
+                                    aria-controls="collapseExample0"
+                                    >
+                                    Read more
+                                    </button></span
+                                >
+                                <br />
+                                <span>
+                                    <div class="collapse" id="collapseExample0">
+                                    <div class="card card-body">
+                                        <p>
+                                        It was designed from the grounds up using React/Redux
+                                        for front-end and Express as server side
+                                        framework. My inspiration was Linkedin but I wanted
+                                        to create a place that filter out the noise and provide a more meaningful space for people to connect.
+                                        </p>
+                                    </div>
+                                    </div>
+                                </span>
+                                <br />
+                                <div class="row">
+                                    <div class="col-12 mx-auto text-center">
+                                    <a
+                                        href="https://github.com/ap94sd24/careerConnector"
+                                        class="btn btn-lg btn-dark"
+                                        style="width: 50%;"
+                                        >Github</a
+                                    >
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <div
+                        class="container-fluid customPadding setHeight"
+                        style="
+                            background-color: rgba(158, 158, 158, 0.7);
+                            -webkit-box-shadow: 2px 2px 4px 1px rgba(92, 93, 102, 1);
+                            -moz-box-shadow: 2px 2px 4px 1px rgba(92, 93, 102, 1);
+                            box-shadow: 2px 2px 4px 1px rgba(92, 93, 102, 1);
+                        "
+                        >
+                        <div class="service-item text-left">
+                            <a
+                            href="http://caffeenreader.s3-website.us-east-2.amazonaws.com/"
+                            >
+                            <img
+                                id="caffeenreader"
+                                src="img/caffeenreader2.png"
+                                alt="Caffeenreader"
+                                class="cardImage"
+                            />
+                            </a>
 
-                      <div class="col-md-3 col-sm-6">
-                          <div class="service-item text-left">
-                              <span class="fa-stack fa-4x">
-                                  <i class="fa fa-circle fa-stack-2x"></i>
-                                  <i class="fa fa-gears fa-stack-1x text-primary"></i>
-                              </span>
-                              <h4>
-                                  <strong>Skills</strong>
-                              </h4>
-                              <p>
-                                  <b>Front-End Framework: </b>
-                                  <ul>
-                                      <li>Angular 7.0+</li>
-                                      <li>Bootstrap 4.0</li>
-                                  </ul>
-                                  <b>Backend Framework: </b>
-                                  <ul>
-                                      <li>Express.js</li>
-                                  </ul>
-                                  <b> Primary Coding Language(s):</b>
-                                  <ul>
-                                      <li>TypeScript/JavaScript</li>
-                                      <li>CSS3</li>
-                                      <li>HTML5</li>
-                                  </ul>
-                                  <b>Other Coding Languages:</b>
-                                  Java, Python, SQL
-                                  </br>
-                                  <b> Design:</b> Balsamiq, Sketch.io, Gimp, Photoshop
-                                  </br>
-                                  <b> Tools: </b> Sublime, Git, Gitlab, VS Code, Heroku, AWS
-                              </p>
-                          </div>
-                      </div>
-                      <div class="col-md-3 col-sm-6">
-                          <div class="service-item text-left">
-                              <span class="fa-stack fa-4x">
-                                  <i class="fa fa-circle fa-stack-2x"></i>
-                                  <i class="fa fa-briefcase fa-stack-1x text-primary"></i>
-                              </span>
-                              <h4>
-                                  <strong>Experience</strong>
-                              </h4>
-                              <p> <b>Kaippen LLC</b> Full-Stack Developer and Founder
-                                  <ul>
-                                      <li>E-Commerce platform for 3nd party brand marketing, targeted at Startups in
-                                          Asia</li>
-                                      <li>Link: <a href="https://www.kaippen.com"> www.kaippen.com</a></li>
-                                  </ul>
-                                  <b>JEAPING Netcom: </b> Sales Engineer
-                                  <ul>
-                                      <li>Technical liaison & brand marketing</li>
-                                  </ul>
-                                  <!--Add other 'work' experience on here-->
-                                  <b>Accton Technology:</b> Front-End Web Developer Intern
-                                  <ul>
-                                      <li>Updated internal web platform using AngularJS</li>
-                                  </ul>
-                                  </br>
-                              </p>
+                            <div class="col-12 customPadding2 cardContent">
+                            <h4>
+                                <div class="cardTitle">
+                                <strong> Caffeenreader - Full-Stack Developer </strong>
+                                </div>
+                            </h4>
+                            <p>
+                                <b>Caffeenreader</b> is a premier social media and news
+                                aggregation platform designed to stimulate discussions
+                                and debates for users on current topics, events or
+                                occurrences.
+                            </p>
+                            <span>
+                                <button
+                                class="btn btn-sm btn-dark"
+                                type="button"
+                                data-toggle="collapse"
+                                data-target="#collapseExample"
+                                aria-expanded="false"
+                                aria-controls="collapseExample"
+                                >
+                                Read more
+                                </button></span
+                            >
+                            <br />
+                            <span>
+                                <div class="collapse" id="collapseExample">
+                                <div class="card card-body">
+                                    <p>
+                                    It is designed from the grounds up using Angular
+                                    7.0+ for front-end and Express as server side
+                                    framework. My inspiration was reddit but I wanted
+                                    a forum that focus on coffee shop style
+                                    intellectual debates for more relevant topics
+                                    rather than on anything and everything.
+                                    </p>
+                                </div>
+                                </div>
+                            </span>
+                            <br />
+                            <div class="row">
+                                <div class="col-12 mx-auto text-center">
+                                <a
+                                    href="https://github.com/ap94sd24/Caffeenreader"
+                                    class="btn btn-lg btn-dark"
+                                    style="width: 50%;"
+                                    >Github</a
+                                >
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <div
+                        class="container-fluid customPadding setHeight"
+                        style="
+                            background-color: rgba(158, 158, 158, 0.7);
+                            -webkit-box-shadow: 2px 2px 4px 1px rgba(92, 93, 102, 1);
+                            -moz-box-shadow: 2px 2px 4px 1px rgba(92, 93, 102, 1);
+                            box-shadow: 2px 2px 4px 1px rgba(92, 93, 102, 1);
+                        "
+                        >
+                        <div class="service-item text-left">
+                            <img
+                            id="puppysquad"
+                            src="img/puppysquad.JPG"
+                            alt="Puppy Squad"
+                            class="cardImage"
+                            />
+                            <!-- The Modal -->
+                            <div id="myModal" class="modal">
+                            <!-- The Close Button -->
+                            <span class="close">&times;</span>
 
-                          </div>
-                      </div>
+                            <!-- Modal Content (The Image) -->
+                            <img class="modal-content" id="puppysquad1" />
 
-                      <div class="col-md-3 col-sm-6">
-                          <div class="service-item text-left">
-                              <span class="fa-stack fa-4x">
-                                  <i class="fa fa-circle fa-stack-2x"></i>
-                                  <i class="fa fa-graduation-cap fa-stack-1x text-primary"></i>
-                              </span>
-                              <h4>
-                                  <strong>Education</strong>
-                              </h4>
-                              <p>
-                                  <b>College:</b> UC San Diego
-                                  </br>
-                                  <b>Major:</b> Computer Science B.S. (December, 2016)
-                                  </br>
-                                  <b>Minor: </b> Business
-                              </p>
+                            <!-- Modal Caption (Image Text) -->
+                            <div id="caption"></div>
+                            </div>
 
-                          </div>
-                      </div>
-                      <div class="col-md-3 col-sm-6">
-                          <a href="img/Ying_Pan_Resume_Web.pdf" class="btn btn-lg btn-dark">View Resume</a>
-                      </div>
-                  </div>
-              </div>
-              <!-- /.row -->
-          </div>
-          <!-- /.container -->
-      </section>
-      <!-- Services -->
-      <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
-      <section id="projects" class="services bg-primary">
-          <div class="container">
-              <div class="row text-center">
-                  <div class="col-lg-12">
-                      <h2>My Work</h2>
-                      <hr class="small">
-                      <div class="row">
-                          <div class="col-lg-4 col-sm-6">
+                            <div class="col-12 customPadding2 cardContent">
+                            <h4>
+                                <div class="cardTitle">
+                                <strong> Puppy Squad - UI/UX Developer </strong>
+                                </div>
+                            </h4>
 
-                              <div class="container-fluid customPadding setHeight"
-                                  style=" background-color: rgba(158,158,158,0.7); -webkit-box-shadow: 2px 2px 4px 1px rgba(92,93,102,1);-moz-box-shadow: 2px 2px 4px 1px rgba(92,93,102,1);box-shadow: 2px 2px 4px 1px rgba(92,93,102,1);">
-                                  <div class="service-item text-left">
-                                      <a href="http://caffeenreader-mean.s3-website-us-east-1.amazonaws.com/">
-                                          <img id="caffeenreader" src="img/caffeenreader.jpg" alt="Caffeenreader"
-                                              class="cardImage">
-                                      </a>
+                            <p>
+                                <b>Puppy Squad</b> is a premier social meet up
+                                application designed to take advantage of users'
+                                available time in order to faciilitate meet-ups and
+                                social interactions between dogs, dog owners and dog
+                                enthusiasts.
+                            </p>
+                            <span>
+                                <button
+                                class="btn btn-sm btn-dark"
+                                type="button"
+                                data-toggle="collapse"
+                                data-target="#collapseExample2"
+                                aria-expanded="false"
+                                aria-controls="collapseExample2"
+                                >
+                                Read more
+                                </button></span
+                            >
+                            <br />
+                            <span>
+                                <div class="collapse" id="collapseExample2">
+                                <div class="card card-body">
+                                    <p>
+                                    By taking advantage of users' interests, we are
+                                    able to tailor users to social interactions they
+                                    are most interested in.
+                                    </p>
+                                    <br />
+                                    <p>
+                                    Puppy Squad was envisioned along with 5 other
+                                    members in a little over a month during the summer
+                                    of 2016. My ambitious team and I conducted user
+                                    research and testing along with creating multiple
+                                    personas, prototypes and storyboards to design and
+                                    polish our solution to the product we envisioned.
+                                    Click on the link below to learn more about our
+                                    journey through the design process.
+                                    </p>
+                                </div>
+                                </div>
+                            </span>
+                            <br />
+                            <div class="row">
+                                <div class="col-6 mx-auto">
+                                <a
+                                    href="https://medium.com/@puppysquadcogs/puppysquad-bf783041c3da#.z9m7ndlhe"
+                                    style="width: 50%;"
+                                    class="btn btn-md btn-dark btnAlign"
+                                    >Design Process</a
+                                >
+                                </div>
+                                <div class="col-6 mx-auto">
+                                <a
+                                    href="https://github.com/vilanle/puppysquad"
+                                    style="margin-top: 1em; width: 50%;"
+                                    class="btn btn-md btn-dark btnAlign"
+                                    >Github</a
+                                >
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <div
+                        class="container-fluid customPadding setHeight"
+                        style="
+                            background-color: rgba(158, 158, 158, 0.7);
+                            -webkit-box-shadow: 2px 2px 4px 1px rgba(92, 93, 102, 1);
+                            -moz-box-shadow: 2px 2px 4px 1px rgba(92, 93, 102, 1);
+                            box-shadow: 2px 2px 4px 1px rgba(92, 93, 102, 1);
+                        "
+                        >
+                        <div class="service-item text-left">
+                            <img
+                            id="herald"
+                            src="img/check-in-project.JPG"
+                            alt="Herald Landing Page"
+                            class="cardImage"
+                            />
+                            <!-- The Modal -->
+                            <div id="project3Modal" class="modal3">
+                            <!-- The Close Button -->
+                            <span class="close3">&times;</span>
 
-                                      <div class="col-12 customPadding2 cardContent">
-                                          <h4>
-                                              <div class="cardTitle">
-                                                  <strong> Caffeenreader- Full-Stack Developer </strong>
-                                              </div>
-                                          </h4>
-                                          <p> <b>Caffeenreader</b> is a premier social media and news aggregation
-                                              platform designed to stimulate discussions and debates for users on
-                                              current topics, events or occurrences. </p>
-                                          <span> <button class="btn btn-sm btn-dark" type="button"
-                                                  data-toggle="collapse" data-target="#collapseExample"
-                                                  aria-expanded="false" aria-controls="collapseExample">
-                                                  Read more
-                                              </button></span> <br>
-                                          <span>
-                                              <div class="collapse" id="collapseExample">
-                                                  <div class="card card-body">
-                                                      <p> It is designed from the grounds up using Angular 7.0+ for
-                                                          front-end and Express as server side framework. My inspiration
-                                                          was reddit but I wanted a forum that focus on coffee shop
-                                                          style intellectual debates for more relevant topics rather
-                                                          than on anything and everything.</p>
-                                                  </div>
-                                              </div>
-                                          </span>
-                                          </br>
-                                          <div class="row">
-                                              <div class="col-12 mx-auto  text-center">
-                                                  <a href="https://github.com/ap94sd24/Caffeenreader"
-                                                      class="btn btn-lg btn-dark" style="width: 50%;">Github</a>
-                                              </div>
-                                          </div>
-                                      </div>
-                                  </div>
-                              </div>
+                            <!-- Modal Content (The Image) -->
+                            <img class="modal-content" id="herald1" />
 
-                          </div>
-                          <div class="col-lg-4 col-sm-6">
+                            <!-- Modal Caption (Image Text) -->
+                            <div id="caption3"></div>
+                            </div>
 
-                              <div class="container-fluid customPadding setHeight"
-                                  style=" background-color: rgba(158,158,158,0.7); -webkit-box-shadow: 2px 2px 4px 1px rgba(92,93,102,1);-moz-box-shadow: 2px 2px 4px 1px rgba(92,93,102,1);box-shadow: 2px 2px 4px 1px rgba(92,93,102,1);">
-                                  <div class="service-item text-left">
-                                      <img id="puppysquad" src="img/puppysquad.JPG" alt="Puppy Squad" class="cardImage">
-                                      <!-- The Modal -->
-                                      <div id="myModal" class="modal">
+                            <div class="col-12 customPadding2 cardContent">
+                            <h4>
+                                <div class="cardTitle">
+                                <strong
+                                    >Quart 3.0: Receptionist App - Front End
+                                    Developer</strong
+                                >
+                                </div>
+                            </h4>
+                            <p>
+                                <b>Herald</b> is a redesigned receptionist check-in app
+                                that allows customers to easily and seamlessly check-in
+                                to their appointment without the hassle of dealing with
+                                a receptionist...
+                            </p>
+                            <span>
+                                <button
+                                class="btn btn-sm btn-dark"
+                                type="button"
+                                data-toggle="collapse"
+                                data-target="#collapseExample3"
+                                aria-expanded="false"
+                                aria-controls="collapseExample3"
+                                >
+                                Read more
+                                </button></span
+                            >
+                            <br />
+                            <span>
+                                <div class="collapse" id="collapseExample3">
+                                <div class="card card-body">
+                                    <p>
+                                    We realize that too many customers are getting
+                                    tire of filling out a physical form just to check
+                                    in only to be delayed by the person he or she is
+                                    trying to make an appointment with. By taking
+                                    advantage of this niche needs, our application
+                                    hopes to make this experinece as convenient as
+                                    possible.
+                                    </p>
+                                    <br />
+                                    <p>
+                                    In a team of 15 people, I helped redesigned Herald
+                                    to better meet the needs and expectations of the
+                                    customers in during my last year at UC San Diego.
+                                    We realized that the prior year's design of the
+                                    receptionist application was lacking in user
+                                    interfaces and online communication channel
+                                    integration like slack. We incorporated feedback
+                                    from a mock customer to better understand what the
+                                    users want and came up with a cleaner landing
+                                    page, slack integration, and the ability for the
+                                    owenr of the site to better analyze the
+                                    information about various companies using the
+                                    check-in web application. For more information
+                                    about the technical details, refer to the link
+                                    below.
+                                    </p>
+                                </div>
+                                </div>
+                            </span>
+                            <br />
+                            <div class="row">
+                                <div class="col-12 mx-auto text-center">
+                                <a
+                                    href="https://github.com/ap94sd24/development"
+                                    class="btn btn-lg btn-dark"
+                                    style="width: 50%;"
+                                    >Github</a
+                                >
+                                </div>
+                                <div class="col-6 mx-auto"></div>
+                            </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.row (nested) -->
+            </div>
+            <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+        </section>
 
-                                          <!-- The Close Button -->
-                                          <span class="close">&times;</span>
+        <!-- Callout -->
+        <aside class="callout">
+        <div class="text-vertical-center"></div>
+        </aside>
 
-                                          <!-- Modal Content (The Image) -->
-                                          <img class="modal-content" id="puppysquad1">
+        <!-- Map -->
+        <section id="contact">
+        <br />
+        </section>
 
-                                          <!-- Modal Caption (Image Text) -->
-                                          <div id="caption"></div>
-                                      </div>
+        <!-- Footer -->
+        <footer>
+        <div class="container">
+            <div class="row">
+            <div class="col-lg-10 col-lg-offset-1 text-center">
+                <h4 style="font-size: 40px;"><strong>Contact</strong></h4>
 
-                                      <div class="col-12 customPadding2 cardContent">
+                <ul class="list-unstyled">
+                <li><i class="fa fa-phone fa-fw"></i> (925)-577-8396</li>
+                <li>
+                    <i class="fa fa-envelope-o fa-fw"></i>
+                    <a href="mailto:adampan94@gmail.com">adampan94@gmail.com</a>
+                </li>
+                </ul>
+                <br />
+                <ul class="list-inline">
+                <li>
+                    <a href="https://www.linkedin.com/in/ying-adam-pan-b5aa8ba9/"
+                    ><i class="fa fa-linkedin fa-fw fa-3x"></i
+                    ></a>
+                </li>
+                <li>
+                    <a href="https://github.com/ap94sd24"
+                    ><i class="fa fa-github fa-fw fa-3x"></i
+                    ></a>
+                </li>
+                </ul>
+                <hr class="small" />
+                <p class="text-muted">Copyright &copy; Adam Pan 2020</p>
+            </div>
+            </div>
+        </div>
+        <a id="to-top" href="#top" class="btn btn-dark btn-lg">
+            <i class="fa fa-chevron-up fa-fw fa-1x"></i
+        ></a>
+        </footer>
 
-                                          <h4>
-                                              <div class="cardTitle">
-                                                  <strong> Puppy Squad - UI/UX Developer </strong>
-                                              </div>
-                                          </h4>
+        <!-- jQuery -->
+        <script src="js/jquery.js"></script>
 
-                                          <p> <b>Puppy Squad</b> is a premier social meet up application designed to
-                                              take
-                                              advantage of users' available time in order to faciilitate meet-ups and
-                                              social
-                                              interactions between dogs, dog owners and dog enthusiasts. </p>
-                                          <span> <button class="btn btn-sm btn-dark" type="button"
-                                                  data-toggle="collapse" data-target="#collapseExample2"
-                                                  aria-expanded="false" aria-controls="collapseExample2">
-                                                  Read more
-                                              </button></span> <br>
-                                          <span>
-                                              <div class="collapse" id="collapseExample2">
-                                                  <div class="card card-body">
-                                                      <p> By taking
-                                                          advantage of
-                                                          users' interests, we are able to tailor users to social
-                                                          interactions they
-                                                          are most
-                                                          interested in.</p> <br>
-                                                      <p>Puppy Squad was envisioned along with 5 other members in a
-                                                          little
-                                                          over a
-                                                          month
-                                                          during the summer of 2016. My ambitious team and I conducted
-                                                          user
-                                                          research
-                                                          and
-                                                          testing along with creating multiple personas, prototypes and
-                                                          storyboards
-                                                          to
-                                                          design and polish our solution to the product we envisioned.
-                                                          Click
-                                                          on the
-                                                          link
-                                                          below to learn more about our journey through the design
-                                                          process.
-                                                      </p>
-                                                  </div>
-                                              </div>
-                                          </span>
-                                          </br>
-                                          <div class="row">
-                                              <div class="col-6 mx-auto">
-                                                  <a href="https://medium.com/@puppysquadcogs/puppysquad-bf783041c3da#.z9m7ndlhe"
-                                                      style="width: 50%;" class="btn btn-md btn-dark btnAlign">Design
-                                                      Process</a>
-                                              </div>
-                                              <div class="col-6  mx-auto">
-                                                  <a href="https://github.com/vilanle/puppysquad"
-                                                      style="margin-top: 1em; width: 50%;"
-                                                      class="btn btn-md btn-dark  btnAlign">Github</a>
-                                              </div>
-                                          </div>
-                                      </div>
-                                  </div>
-                              </div>
+        <!-- Bootstrap Core JavaScript -->
+        <script src="js/bootstrap.min.js"></script>
 
-                          </div>
-                          <div class="col-lg-4 col-sm-6">
+        <!-- Custom Theme JavaScript -->
+        <script>
+        ///////////////////////////////Project 2 Image Controller//////////////////////////////////////
+        // Get the modal
+        var modal = document.getElementById('myModal');
 
-                              <div class="container-fluid customPadding setHeight"
-                                  style=" background-color: rgba(158,158,158,0.7); -webkit-box-shadow: 2px 2px 4px 1px rgba(92,93,102,1);-moz-box-shadow: 2px 2px 4px 1px rgba(92,93,102,1);box-shadow: 2px 2px 4px 1px rgba(92,93,102,1);">
-                                  <div class="service-item text-left">
-                                      <img id="herald" src="img/check-in-project.JPG" alt="Herald Landing Page"
-                                          class="cardImage">
-                                      <!-- The Modal -->
-                                      <div id="project3Modal" class="modal3">
+        // Get the image and insert it inside the modal - use its "alt" text as a caption
+        var img = document.getElementById('puppysquad');
+        var modalImg = document.getElementById('puppysquad1');
+        var captionText = document.getElementById('caption');
+        img.onclick = function () {
+            modal.style.display = 'block';
+            modalImg.src = this.src;
+            captionText.innerHTML = this.alt;
+        };
 
-                                          <!-- The Close Button -->
-                                          <span class="close3">&times;</span>
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName('close')[0];
 
-                                          <!-- Modal Content (The Image) -->
-                                          <img class="modal-content" id="herald1">
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function () {
+            modal.style.display = 'none';
+        };
 
-                                          <!-- Modal Caption (Image Text) -->
-                                          <div id="caption3"></div>
-                                      </div>
+        //////////////////////////////////////////////////////////////////////////////////////////
+        // Get the modal
+        var modal = document.getElementById('project3Modal');
 
-                                      <div class="col-12 customPadding2 cardContent">
+        // Get the image and insert it inside the modal - use its "alt" text as a caption
+        var img = document.getElementById('herald');
+        var modalImg = document.getElementById('herald1');
+        var captionText = document.getElementById('caption3');
+        img.onclick = function () {
+            modal.style.display = 'block';
+            modalImg.src = this.src;
+            captionText.innerHTML = this.alt;
+        };
 
-                                          <h4>
-                                              <div class="cardTitle">
-                                                  <strong>Quart 3.0: Receptionist App - Front End Developer</strong>
-                                              </div>
-                                          </h4>
-                                          <p> <b>Herald</b> is a redesigned receptionist check-in app that allows
-                                              customers to easily and seamlessly check-in to their
-                                              appointment without the hassle of dealing with a receptionist... </p>
-                                          <span> <button class="btn btn-sm btn-dark" type="button"
-                                                  data-toggle="collapse" data-target="#collapseExample3"
-                                                  aria-expanded="false" aria-controls="collapseExample3">
-                                                  Read more
-                                              </button></span> <br>
-                                          <span>
-                                              <div class="collapse" id="collapseExample3">
-                                                  <div class="card card-body">
-                                                      <p> We realize that too
-                                                          many customers are getting tire of filling out a physical form
-                                                          just to check in
-                                                          only to be delayed by the person he or she is trying to make
-                                                          an appointment with.
-                                                          By taking advantage of this niche needs, our application hopes
-                                                          to make this
-                                                          experinece as convenient as possible.</p> <br>
-                                                      <p> In a team of 15 people, I helped redesigned Herald to better
-                                                          meet the needs and
-                                                          expectations of the customers in during my last year at UC San
-                                                          Diego. We realized
-                                                          that the prior year's design of the receptionist application
-                                                          was lacking in user
-                                                          interfaces and online communication channel integration like
-                                                          slack. We
-                                                          incorporated feedback from a mock customer to better
-                                                          understand what the users
-                                                          want and came up with a cleaner landing page, slack
-                                                          integration, and the ability
-                                                          for the owenr of the site to better analyze the information
-                                                          about various
-                                                          companies using the check-in web application. For more
-                                                          information about the
-                                                          technical details, refer to the link below.
-                                                      </p>
-                                                  </div>
-                                              </div>
-                                          </span>
-                                          </br>
-                                          <div class="row">
-                                              <div class="col-12 mx-auto  text-center">
-                                                  <a href="https://github.com/ap94sd24/development"
-                                                      class="btn btn-lg btn-dark" style="width: 50%;">Github</a>
-                                              </div>
-                                              <div class="col-6  mx-auto">
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName('close3')[0];
 
-                                              </div>
-                                          </div>
-                                      </div>
-                                  </div>
-                              </div>
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function () {
+            modal.style.display = 'none';
+        };
 
-                          </div>
+        ///////////////////////////////////////////////////////////////////////////////////////////
+        // Closes the sidebar menu
+        $('#menu-close').click(function (e) {
+            e.preventDefault();
+            $('#sidebar-wrapper').toggleClass('active');
+        });
+        // Opens the sidebar menu
+        $('#menu-toggle').click(function (e) {
+            e.preventDefault();
+            $('#sidebar-wrapper').toggleClass('active');
+        });
+        // Scrolls to the selected menu item on the page
+        $(function () {
+            $(
+            'a[href*=#]:not([href=#],[data-toggle],[data-target],[data-slide])'
+            ).click(function () {
+            if (
+                location.pathname.replace(/^\//, '') ==
+                this.pathname.replace(/^\//, '') ||
+                location.hostname == this.hostname
+            ) {
+                var target = $(this.hash);
+                target = target.length
+                ? target
+                : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                $('html,body').animate(
+                    {
+                    scrollTop: target.offset().top,
+                    },
+                    1000
+                );
+                return false;
+                }
+            }
+            });
+        });
+        //#to-top button appears after scrolling
+        var fixed = false;
+        $(document).scroll(function () {
+            if ($(this).scrollTop() > 250) {
+            if (!fixed) {
+                fixed = true;
+                // $('#to-top').css({position:'fixed', display:'block'});
+                $('#to-top').show('slow', function () {
+                $('#to-top').css({
+                    position: 'fixed',
+                    display: 'block',
+                });
+                });
+            }
+            } else {
+            if (fixed) {
+                fixed = false;
+                $('#to-top').hide('slow', function () {
+                $('#to-top').css({
+                    display: 'none',
+                });
+                });
+            }
+            }
+        });
 
-
-                      </div>
-                      <!-- /.row (nested) -->
-                  </div>
-                  <!-- /.col-lg-10 -->
-              </div>
-              <!-- /.row -->
-          </div>
-          <!-- /.container -->
-      </section>
-
-      <!-- Callout -->
-      <aside class="callout">
-          <div class="text-vertical-center">
-          </div>
-      </aside>
-
-
-
-      <!-- Map -->
-      <section id="contact">
-          <br />
-      </section>
-
-
-      <!-- Footer -->
-      <footer>
-          <div class="container">
-              <div class="row">
-                  <div class="col-lg-10 col-lg-offset-1 text-center">
-                      <h4 style="font-size: 40px;"><strong>Contact</strong>
-                      </h4>
-
-                      <ul class="list-unstyled">
-                          <li><i class="fa fa-phone fa-fw"></i> (925)-577-8396</li>
-                          <li><i class="fa fa-envelope-o fa-fw"></i> <a
-                                  href="mailto:adampan94@gmail.com">adampan94@gmail.com</a>
-                          </li>
-                      </ul>
-                      <br>
-                      <ul class="list-inline">
-                          <li>
-                              <a href="https://www.linkedin.com/in/ying-adam-pan-b5aa8ba9/"><i
-                                      class="fa fa-linkedin fa-fw fa-3x"></i></a>
-                          </li>
-                          <li>
-                              <a href="https://github.com/ap94sd24"><i class="fa fa-github fa-fw fa-3x"></i></a>
-                          </li>
-                      </ul>
-                      <hr class="small">
-                      <p class="text-muted">Copyright &copy; Adam Pan 2019</p>
-                  </div>
-              </div>
-          </div>
-          <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
-      </footer>
-
-      <!-- jQuery -->
-      <script src="js/jquery.js"></script>
-
-      <!-- Bootstrap Core JavaScript -->
-      <script src="js/bootstrap.min.js"></script>
-
-      <!-- Custom Theme JavaScript -->
-      <script>
-          ///////////////////////////////Project 2 Image Controller//////////////////////////////////////
-          // Get the modal
-          var modal = document.getElementById("myModal");
-
-          // Get the image and insert it inside the modal - use its "alt" text as a caption
-          var img = document.getElementById("puppysquad");
-          var modalImg = document.getElementById("puppysquad1");
-          var captionText = document.getElementById("caption");
-          img.onclick = function () {
-              modal.style.display = "block";
-              modalImg.src = this.src;
-              captionText.innerHTML = this.alt;
-          }
-
-          // Get the <span> element that closes the modal
-          var span = document.getElementsByClassName("close")[0];
-
-          // When the user clicks on <span> (x), close the modal
-          span.onclick = function () {
-              modal.style.display = "none";
-          }
-
-          //////////////////////////////////////////////////////////////////////////////////////////
-          // Get the modal
-          var modal = document.getElementById("project3Modal");
-
-          // Get the image and insert it inside the modal - use its "alt" text as a caption
-          var img = document.getElementById("herald");
-          var modalImg = document.getElementById("herald1");
-          var captionText = document.getElementById("caption3");
-          img.onclick = function () {
-              modal.style.display = "block";
-              modalImg.src = this.src;
-              captionText.innerHTML = this.alt;
-          }
-
-          // Get the <span> element that closes the modal
-          var span = document.getElementsByClassName("close3")[0];
-
-          // When the user clicks on <span> (x), close the modal
-          span.onclick = function () {
-              modal.style.display = "none";
-          }
-
-          ///////////////////////////////////////////////////////////////////////////////////////////
-          // Closes the sidebar menu
-          $("#menu-close").click(function (e) {
-              e.preventDefault();
-              $("#sidebar-wrapper").toggleClass("active");
-          });
-          // Opens the sidebar menu
-          $("#menu-toggle").click(function (e) {
-              e.preventDefault();
-              $("#sidebar-wrapper").toggleClass("active");
-          });
-          // Scrolls to the selected menu item on the page
-          $(function () {
-              $('a[href*=#]:not([href=#],[data-toggle],[data-target],[data-slide])').click(function () {
-                  if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') ||
-                      location.hostname == this.hostname) {
-                      var target = $(this.hash);
-                      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                      if (target.length) {
-                          $('html,body').animate({
-                              scrollTop: target.offset().top
-                          }, 1000);
-                          return false;
-                      }
-                  }
-              });
-          });
-          //#to-top button appears after scrolling
-          var fixed = false;
-          $(document).scroll(function () {
-              if ($(this).scrollTop() > 250) {
-                  if (!fixed) {
-                      fixed = true;
-                      // $('#to-top').css({position:'fixed', display:'block'});
-                      $('#to-top').show("slow", function () {
-                          $('#to-top').css({
-                              position: 'fixed',
-                              display: 'block'
-                          });
-                      });
-                  }
-              } else {
-                  if (fixed) {
-                      fixed = false;
-                      $('#to-top').hide("slow", function () {
-                          $('#to-top').css({
-                              display: 'none'
-                          });
-                      });
-                  }
-              }
-          });
-
-          // Disable Google Maps scrolling
-          // See http://stackoverflow.com/a/25904582/1607849
-          // Disable scroll zooming and bind back the click event
-      </script>
-
-  </body>
-
-  </html>
+        // Disable Google Maps scrolling
+        // See http://stackoverflow.com/a/25904582/1607849
+        // Disable scroll zooming and bind back the click event
+        </script>
+    </body>
+</html>
